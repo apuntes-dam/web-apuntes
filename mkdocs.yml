@@ -1,0 +1,80 @@
+site_name: HTML, CSS y JavaScript · Apuntes
+site_description: "Apuntes y prácticas de desarrollo web: HTML, CSS y JavaScript, con editor en vivo."
+site_url: https://apuntes-dam.github.io/web-apuntes/
+repo_url: https://github.com/apuntes-dam/web-apuntes
+repo_name: GitHub
+theme:
+  name: material
+  language: es
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+extra_css:
+  - assets/extra.css
+  - assets/lenguajes.css
+extra_javascript:
+  - assets/lenguajes.js
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/apuntes-dam/
+      name: Síguenos en GitHub
+copyright: Practica los Lenguajes de Programación para 1º DAM y 2º DAM · <a href="https://github.com/apuntes-dam/">Síguenos en GitHub</a>
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+nav:
+  - Inicio: index.md
+  - "U1 · HTML":
+      - u01/index.md
+      - "1.1 Estructura de una página": u01/01-estructura.md
+      - "1.2 Texto y enlaces": u01/02-texto-enlaces.md
+      - "1.3 Imágenes y listas": u01/03-imagenes-listas.md
+      - "1.4 Tablas": u01/04-tablas.md
+      - "1.5 Formularios": u01/05-formularios.md
+      - "1.6 Semántica y accesibilidad": u01/06-semantica.md
+      - "H1 Ejercicios": u01/ejercicios.md
+  - "U2 · CSS":
+      - u02/index.md
+      - "2.1 Selectores": u02/01-selectores.md
+      - "2.2 Color y texto": u02/02-color-texto.md
+      - "2.3 Modelo de caja": u02/03-caja.md
+      - "2.4 Flexbox": u02/04-flexbox.md
+      - "2.5 Grid": u02/05-grid.md
+      - "2.6 Responsive y estados": u02/06-responsive.md
+      - "C2 Ejercicios": u02/ejercicios.md
+  - "U3 · JavaScript":
+      - u03/index.md
+      - "3.1 Variables y tipos": u03/01-basicos.md
+      - "3.2 Control de flujo y funciones": u03/02-control-funciones.md
+      - "3.3 Arrays y objetos": u03/03-arrays-objetos.md
+      - "3.4 El DOM": u03/04-dom.md
+      - "3.5 Eventos": u03/05-eventos.md
+      - "3.6 Formularios y validación": u03/06-formularios.md
+      - "3.7 localStorage y fetch": u03/07-almacenamiento-fetch.md
+      - "J3 Ejercicios": u03/ejercicios.md
+  - "U4 · Proyectos":
+      - u04/index.md
+      - "P4 Proyectos": u04/ejercicios.md
+  - Chuleta: chuleta.md
