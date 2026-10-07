@@ -9,6 +9,8 @@
 * `src`: ruta de la imagen (relativa o una URL).
 * `alt`: **texto alternativo**, obligatorio: lo leen los lectores de pantalla y se muestra si la imagen no carga.
 * `width` / `height`: tamaño en píxeles (conviene indicarlo para que la página no "salte" al cargar).
+* `loading="lazy"`: el navegador descarga la imagen solo cuando está cerca de verse. Úsalo en las imágenes que están más abajo en la página, no en la primera que ve el usuario.
+* `srcset` y `sizes`: ofrecen la misma imagen en varios tamaños y el navegador elige la más adecuada para cada pantalla (`<img src="foto-800.jpg" srcset="foto-400.jpg 400w, foto-800.jpg 800w" sizes="(max-width: 600px) 400px, 800px" alt="...">`).
 
 <div class="demo" data-alto="14rem" data-code="&lt;figure&gt;&#10;  &lt;img src=&quot;data:image/svg+xml;utf8,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;160&#x27; height=&#x27;90&#x27;&gt;&lt;rect width=&#x27;160&#x27; height=&#x27;90&#x27; fill=&#x27;%2342a5f5&#x27;/&gt;&lt;circle cx=&#x27;80&#x27; cy=&#x27;45&#x27; r=&#x27;28&#x27; fill=&#x27;%23ffd54f&#x27;/&gt;&lt;/svg&gt;&quot;&#10;       alt=&quot;Un sol sobre fondo azul&quot; width=&quot;160&quot; height=&quot;90&quot;&gt;&#10;  &lt;figcaption&gt;Un sol (figure + figcaption)&lt;/figcaption&gt;&#10;&lt;/figure&gt;&#10;&lt;a href=&quot;https://example.com&quot;&gt;&lt;img src=&quot;data:image/svg+xml;utf8,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;60&#x27; height=&#x27;30&#x27;&gt;&lt;rect width=&#x27;60&#x27; height=&#x27;30&#x27; fill=&#x27;%2366bb6a&#x27;/&gt;&lt;/svg&gt;&quot; alt=&quot;Imagen que es un enlace&quot;&gt;&lt;/a&gt;"></div>
 

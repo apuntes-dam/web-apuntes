@@ -56,4 +56,4 @@ Se enlazan desde el HTML:
 </body>
 ```
 
-El `<script>` va al final del `body` para que el HTML ya exista cuando el JavaScript lo busque.
+El `<script>` va al final del `body` para que el HTML ya exista cuando el JavaScript lo busque. La alternativa moderna es ponerlo en el `<head>` con el atributo **`defer`** (`<script src="script.js" defer></script>`): el navegador lo descarga mientras lee el HTML y lo ejecuta cuando la página está lista.

@@ -21,7 +21,7 @@ Pequeños proyectos que juntan HTML, CSS y JavaScript. Cada uno va en su propia 
 
 ## Ejercicio P4.2
 
-**Lista de tareas con memoria.** Amplía la lista de tareas del ejercicio 3.15: poder marcar una tarea como hecha (tachada), borrarla y que **todo se conserve al recargar** con `localStorage`. Que se vea bien en móvil.
+**Lista de tareas con memoria.** Amplía la lista de tareas del ejercicio J3.15: poder marcar una tarea como hecha (tachada), borrarla y que **todo se conserve al recargar** con `localStorage`. Que se vea bien en móvil.
 
 ## Ejercicio P4.3
 

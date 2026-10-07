@@ -37,3 +37,26 @@ Otras ayudas para adaptar: `max-width: 100%` en imágenes, unidades relativas (`
 ```
 
 Permiten cambiar un valor en un solo sitio.
+
+## Herramientas modernas que conviene conocer
+
+Todas están disponibles en los navegadores actuales. Comprueba la compatibilidad en [caniuse.com](https://caniuse.com) si tu proyecto debe funcionar en navegadores antiguos.
+
+| Herramienta | Ejemplo | Para qué sirve |
+|---|---|---|
+| `clamp()` | `font-size: clamp(1rem, 2.5vw, 2rem)` | Un tamaño que crece con la pantalla, pero con mínimo y máximo |
+| `aspect-ratio` | `aspect-ratio: 16 / 9` | Mantiene la proporción de una caja o un vídeo |
+| `prefers-color-scheme` | `@media (prefers-color-scheme: dark) { ... }` | Aplica estilos si el usuario usa modo oscuro |
+| `:has()` | `.tarjeta:has(img) { padding: 0 }` | Estiliza un elemento según lo que contiene |
+| Consultas de contenedor | `@container (min-width: 400px) { ... }` | Cambia el estilo según el tamaño del contenedor, no de la pantalla |
+| Anidamiento | `.menu { a { color: red } }` | Escribir selectores dentro de otros, como en Sass |
+
+```css
+:root { --fondo: #ffffff; --texto: #1b1b1b; }
+@media (prefers-color-scheme: dark) {
+  :root { --fondo: #121212; --texto: #eeeeee; }
+}
+body { background: var(--fondo); color: var(--texto); }
+```
+
+Este ejemplo junta dos ideas de esta unidad: las variables CSS y una consulta de medios para ofrecer modo oscuro.

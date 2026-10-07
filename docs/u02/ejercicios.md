@@ -87,7 +87,7 @@ Parte de tus páginas HTML de la unidad 1 y enlaza un archivo `estilos.css`. Haz
 
 ## Ejercicio C2.13
 
-**Diseño adaptable.** Haz que la galería del ejercicio 2.11 pase de 3 columnas a 2 en pantallas medianas y a 1 en móvil con `@media`. No olvides la etiqueta `viewport`.
+**Diseño adaptable.** Haz que la galería del ejercicio C2.11 pase de 3 columnas a 2 en pantallas medianas y a 1 en móvil con `@media`. No olvides la etiqueta `viewport`.
 
 <details class="sol" data-key="web/u02/C2.13">
 <summary>Solución modelo (bloqueada)</summary>

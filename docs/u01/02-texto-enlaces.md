@@ -44,4 +44,4 @@
 | Correo / teléfono | `mailto:...` · `tel:...` |
 
 !!! tip "Abrir en otra pestaña"
-    `target="_blank"` abre en una pestaña nueva. Añade siempre `rel="noopener"` por seguridad.
+    `target="_blank"` abre en una pestaña nueva. Los navegadores actuales ya aplican `noopener` por defecto a estos enlaces, pero escribir `rel="noopener"` sigue siendo buena costumbre (y es necesario en navegadores antiguos).

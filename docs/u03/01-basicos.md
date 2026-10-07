@@ -44,4 +44,4 @@ edad = 21;
 
 <div class="demo" data-alto="11rem" data-consola="1" data-code="console.log(&quot;5&quot; + 3);              // &quot;53&quot; (concatena)&#10;console.log(Number(&quot;5&quot;) + 3);      // 8&#10;console.log(parseInt(&quot;42px&quot;));     // 42&#10;console.log(parseFloat(&quot;3.5&quot;));    // 3.5&#10;console.log(Number(&quot;hola&quot;));       // NaN (no es un número)&#10;console.log(String(123), (7).toString());"></div>
 
-Lo que devuelve `prompt()` o lee un `input` es **siempre texto**: conviértelo con `Number(...)` antes de operar.
+Lo que devuelve `prompt()` o lee un `input` es **siempre texto**: conviértelo con `Number(...)` antes de operar. `prompt()` y `alert()` sirven para aprender, pero en una web real se usan formularios y elementos de la página, que se ven en los apartados siguientes.
