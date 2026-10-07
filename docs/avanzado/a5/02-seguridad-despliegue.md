@@ -221,7 +221,7 @@ jobs:
       - uses: actions/deploy-pages@v4
 ```
 
-Fíjate en el orden: **`npm test` antes de `npm run build`**. Si una prueba falla, **no se publica nada**. Es la integración continua que se estudió en la [A5 de Git](https://apuntes-dam.github.io/git-apuntes/avanzado/a5/index.md), aplicada a una web.
+Fíjate en el orden: **`npm test` antes de `npm run build`**. Si una prueba falla, **no se publica nada**. Es la integración continua que se estudió en la [A5 de Git](https://apuntes-dam.github.io/git-apuntes/avanzado/a5/), aplicada a una web.
 
 ## Lista de comprobación antes de publicar
 

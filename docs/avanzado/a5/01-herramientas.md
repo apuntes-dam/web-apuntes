@@ -251,7 +251,7 @@ export default [
 }
 ```
 
-Lo normal es **ejecutarlas automáticamente**: en el editor (se corrige al guardar), antes de cada *commit* con un hook de Git (como el de la [A5 de Git](https://apuntes-dam.github.io/git-apuntes/avanzado/a5/index.md)) y en la integración continua del servidor.
+Lo normal es **ejecutarlas automáticamente**: en el editor (se corrige al guardar), antes de cada *commit* con un hook de Git (como el de la [A5 de Git](https://apuntes-dam.github.io/git-apuntes/avanzado/a5/)) y en la integración continua del servidor.
 
 ## Empaquetar con Vite (sin ejecutar)
 
