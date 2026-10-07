@@ -18,3 +18,6 @@ Apuntes y prácticas de **desarrollo web**: **HTML** para la estructura, **CSS**
 
 !!! note "¿Es HTML un lenguaje de programación?"
     No: HTML y CSS son lenguajes de **marcado** y de **estilos**. **JavaScript** sí es un lenguaje de programación, el único que ejecutan de forma nativa todos los navegadores. Si quieres comparar JavaScript con otros lenguajes, mira la [portada](https://apuntes-dam.github.io/apuntes-lenguajes/).
+
+!!! tip "¿Quieres ir más allá?"
+    Activa el interruptor **Avanzado** de la cabecera para ver el [material avanzado](avanzado/index.md): JavaScript moderno y asíncrono, DOM y eventos a fondo, CSS actual, accesibilidad, rendimiento, herramientas y despliegue.

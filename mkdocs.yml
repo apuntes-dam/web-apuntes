@@ -76,4 +76,30 @@ nav:
   - "U4 · Proyectos":
       - u04/index.md
       - "P4 Proyectos": u04/ejercicios.md
+  - "Avanzado": avanzado/index.md
+  - "WA1 · JavaScript moderno y asíncrono":
+      - avanzado/a1/index.md
+      - "WA1.1 JavaScript moderno: datos, funciones y módulos": avanzado/a1/01-moderno.md
+      - "WA1.2 Asincronía: promesas, async/await y cancelación": avanzado/a1/02-asincrono.md
+      - "WA1 Ejercicios": avanzado/a1/ejercicios.md
+  - "WA2 · DOM y eventos avanzados":
+      - avanzado/a2/index.md
+      - "WA2.1 Eventos a fondo: delegación, propagación y eventos propios": avanzado/a2/01-eventos.md
+      - "WA2.2 APIs del navegador: observadores, formularios, URL y estado": avanzado/a2/02-apis.md
+      - "WA2 Ejercicios": avanzado/a2/ejercicios.md
+  - "WA3 · CSS moderno":
+      - avanzado/a3/index.md
+      - "WA3.1 Variables, funciones y selectores modernos": avanzado/a3/01-variables-selectores.md
+      - "WA3.2 Capas, adaptación por contenedor y layouts avanzados": avanzado/a3/02-capas-layout.md
+      - "WA3 Ejercicios": avanzado/a3/ejercicios.md
+  - "WA4 · Movimiento, accesibilidad y rendimiento":
+      - avanzado/a4/index.md
+      - "WA4.1 Animaciones y accesibilidad": avanzado/a4/01-animacion-accesibilidad.md
+      - "WA4.2 Rendimiento: cargar rápido y medir": avanzado/a4/02-rendimiento.md
+      - "WA4 Ejercicios": avanzado/a4/ejercicios.md
+  - "WA5 · Herramientas, seguridad y despliegue":
+      - avanzado/a5/index.md
+      - "WA5.1 Herramientas: npm, pruebas y calidad": avanzado/a5/01-herramientas.md
+      - "WA5.2 Seguridad y publicación": avanzado/a5/02-seguridad-despliegue.md
+      - "WA5 Ejercicios": avanzado/a5/ejercicios.md
   - Chuleta: chuleta.md
