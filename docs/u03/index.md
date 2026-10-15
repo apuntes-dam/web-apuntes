@@ -1,5 +1,13 @@
 # U3 · JavaScript: el comportamiento de la web
 
+<div class="narrador" data-slug="u03-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 3"></div>
+
+??? note "Leer el resumen"
+    JavaScript es el lenguaje de programación de la web. Se ejecuta en el navegador y hace que la página reaccione.
+    Aprendes variables, tipos, condiciones, funciones, arrays y objetos.
+    Después usas el DOM, que es la forma de leer y cambiar la página desde el código, y los eventos, para responder a clics y teclas. Validas formularios y guardas datos en el navegador con localStorage. Y con fetch pides información a un servidor.
+
+
 **JavaScript** es el lenguaje de programación de la web. Se ejecuta en el navegador y permite que la página **reaccione**: validar un formulario, cambiar contenido, responder a clics, guardar datos o pedir información a un servidor.
 
 ## Teoría

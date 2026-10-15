@@ -1,5 +1,12 @@
 # U4 · Proyectos
 
+<div class="narrador" data-slug="u04-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 4"></div>
+
+??? note "Leer el resumen"
+    Esta unidad no tiene teoría nueva. Son pequeños proyectos donde juntas HTML, CSS y JavaScript.
+    Es el momento de usarlo todo a la vez. Haz cada proyecto por tu cuenta y mira la solución solo al final.
+
+
 Pequeños proyectos que juntan **HTML, CSS y JavaScript**. No hay teoría nueva: es el momento de unirlo todo.
 
 ## Antes de empezar: qué debes dominar

@@ -1,5 +1,13 @@
 # U2 · CSS: el aspecto de la web
 
+<div class="narrador" data-slug="u02-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 2"></div>
+
+??? note "Leer el resumen"
+    CSS describe cómo se ve el HTML: colores, letras, espacios y tamaños.
+    Empiezas con los selectores, que dicen a qué elementos se aplica cada regla. Después ves el color y el texto, y el modelo de caja, que explica que cada elemento es una caja con contenido, relleno, borde y margen.
+    Con Flexbox y Grid colocas los elementos en la pantalla. Y con el diseño responsive, la página se adapta al móvil y al ordenador.
+
+
 **CSS** (*Cascading Style Sheets*) describe **cómo se ve** el HTML: colores, tipografías, espacios, tamaños y la disposición de los elementos en pantalla, incluso según el dispositivo.
 
 ## Teoría
