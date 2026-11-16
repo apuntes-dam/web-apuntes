@@ -1,6 +1,6 @@
 # Avanzado
 
-Material para ir más allá de las tres primeras unidades: JavaScript moderno y asíncrono, el DOM a fondo, CSS actual, accesibilidad y rendimiento, y las herramientas con las que se trabaja de verdad.
+Material para ir más allá de las tres primeras unidades: JavaScript moderno y asíncrono, el DOM a fondo, CSS actual, accesibilidad y rendimiento, las herramientas con las que se trabaja de verdad, y React.
 
 !!! info "Es un modo aparte"
     Esta sección solo aparece en el menú cuando activas el interruptor **Avanzado** de la cabecera. Así, quien está empezando no ve nada que no necesite todavía. Tu elección se guarda en el navegador.
@@ -15,6 +15,7 @@ Material para ir más allá de las tres primeras unidades: JavaScript moderno y 
 | [WA3 · CSS moderno](a3/index.md) | Variables CSS, `clamp()`, `:is()`/`:where()`/`:has()`, `@layer`, anidamiento, consultas de contenedor, `subgrid`, `aspect-ratio` y propiedades lógicas |
 | [WA4 · Movimiento, accesibilidad y rendimiento](a4/index.md) | `transition` y `@keyframes`, `prefers-reduced-motion`, teclado y foco, ARIA, contraste, `defer`/`async`, imágenes responsivas, `loading=lazy` y Core Web Vitals |
 | [WA5 · Herramientas, seguridad y despliegue](a5/index.md) | `npm`, `package.json`, `node --test`, ESLint y Prettier, empaquetado con Vite, XSS, CSP, CORS, HTTPS y GitHub Pages |
+| [WA6 · React](a6/index.md) | Componentes como funciones, JSX y `React.createElement`, props, listas con `key`, renderizado condicional, `useState`, eventos e inputs controlados, y `useEffect` |
 
 !!! note "Antes de empezar"
     Da por sabidas las unidades [1 · HTML](../u01/index.md), [2 · CSS](../u02/index.md) y [3 · JavaScript](../u03/index.md). Para ejecutar JavaScript fuera del navegador necesitas [Node.js](https://nodejs.org/).

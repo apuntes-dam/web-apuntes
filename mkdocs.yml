@@ -105,4 +105,9 @@ nav:
       - "WA5.1 Herramientas: npm, pruebas y calidad": avanzado/a5/01-herramientas.md
       - "WA5.2 Seguridad y publicación": avanzado/a5/02-seguridad-despliegue.md
       - "WA5 Ejercicios": avanzado/a5/ejercicios.md
+  - "WA6 · React":
+      - avanzado/a6/index.md
+      - "WA6.1 Componentes, JSX y props": avanzado/a6/01-componentes.md
+      - "WA6.2 Estado y eventos con hooks": avanzado/a6/02-estado-hooks.md
+      - "WA6 Ejercicios": avanzado/a6/ejercicios.md
   - Chuleta: chuleta.md
